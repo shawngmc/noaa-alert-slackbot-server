@@ -1,0 +1,36 @@
+{
+  "name": "noaa-alert-slackbot-server",
+  "version": "1.0.0",
+  "description": "A server process that will regularly retrieve NOAA weather alert feeds, filter them down and post them to a requesting Slack channel.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/shawngmc/noaa-alert-slackbot-server.git"
+  },
+  "keywords": [
+    "noaa",
+    "weather",
+    "slack",
+    "thunderstorm",
+    "tornado",
+    "alert",
+    "warning",
+    "bot"
+  ],
+  "author": "Shawn McNaughton",
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/shawngmc/noaa-alert-slackbot-server/issues"
+  },
+  "homepage": "https://github.com/shawngmc/noaa-alert-slackbot-server#readme",
+  "dependencies": {
+    "bluebird": "^3.5.0",
+    "feedreader": "^0.1.1",
+    "lodash": "^4.17.4",
+    "polygons-intersect": "^1.0.3",
+    "postal-codes": "^1.0.476"
+  }
+}
